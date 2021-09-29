@@ -1,0 +1,60 @@
+body {
+    background-color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.main-content {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-nav-top {
+    display: block;
+    position: absolute;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+    margin: 0 100px;
+    padding: 8px;
+    
+}
+
+.nav-index {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+}
+
+
+nav.navbar{
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.section-landing {
+    background-image: url("../img/indeximg.jpg");
+}
+
+.section-1{
+    background-image: url("../img/historyimg.jpg");
+}
+
+.section-2 {
+    background-image: url("../img/climbimg.jpg");
+}
