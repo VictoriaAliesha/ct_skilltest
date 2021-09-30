@@ -34,6 +34,15 @@ body {
     padding: 10px;
 }
 
+#nav-style {
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase; 
+}
+
 
 nav.navbar{
     position: absolute;
@@ -57,4 +66,42 @@ nav.navbar{
 
 .section-2 {
     background-image: url("../img/climbimg.jpg");
+}
+
+h1.numberfont {
+    font-family: 'Oswald', sans-serif;
+    font-size: 135px;
+    font-weight: bolder;
+    color: #414f6b;
+    opacity: 0.5;
+    padding-top: 40px;
+    float: left;
+}
+
+
+h2.titlefont {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #414f6b;
+    width: 100vw;
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 130px;
+}
+
+
+p.info-container {
+    font-family: 'Lato', sans-serif;
+    font-weight: 350;
+    padding: 0 5%;
+    display: inline-block;
+}
+
+.color-bg {
+    background-color: #414f6b;
+    display: block;
+    width: 100vw;
+    height: 300px;
+    margin-top: 700px;
 }
