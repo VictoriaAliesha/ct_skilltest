@@ -135,7 +135,7 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-dots {
-    position: absolute;
+    /*position: absolute;*/
     bottom: -25px;
     list-style: none;
     display: block;
@@ -170,7 +170,7 @@ $slick-opacity-not-active: 0.25 !default;
                 }
             }
             &:before {
-                position: absolute;
+                /*position: absolute;*/
                 top: 0;
                 left: 0;
                 content: $slick-dot-character;
